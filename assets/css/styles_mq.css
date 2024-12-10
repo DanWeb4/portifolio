@@ -28,7 +28,7 @@ html {
 /* Definição  do tamanho da tela */
 body {
     font-family: Arial, sans-serif;
-    background-image: linear-gradient(to bottom, #f9f9fc, #fafafa);
+    background-image: linear-gradient(to bottom, #0f0f14, #050505);
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: scroll;
@@ -36,7 +36,7 @@ body {
 }
 
 header {
-    background-color: #2e28da;
+    background-color: #231dce;
     margin-top: 3px;
     border-radius: 7px 7px 0px 0px;
     width: 90vw;
@@ -45,9 +45,9 @@ header {
 
 header>h1 {
     text-align: center;
-    color: whitesmoke;
+    color: rgb(233, 226, 226);
     padding: 3px;
-    text-shadow: #c5a898 1px 1px 10px;
+    text-shadow: #fafafa 1px 1px 10px;
     margin-top: 17px;
 
 }
@@ -55,7 +55,7 @@ header>h1 {
 #burger {
     background-color: #231dce;
     display: block;
-    color: whitesmoke;
+    color: rgb(255, 247, 247);
     text-align: center;
     margin: auto;
     padding: 7px;
@@ -64,11 +64,11 @@ header>h1 {
 }
 
 #burger:hover {
-    background-color: #c5a898;
+    background-color: #030303;
 }
 
 menu {
-    color: whitesmoke;
+    color: rgb(241, 235, 235);
     text-align: center;
     list-style-type: none;
     width: 90vw;
@@ -84,22 +84,22 @@ menu>ul>li>a {
     padding: 7px;
     text-decoration: none;
     text-align: center;
-    background-color: #201bad;
+    background-color: #231dce;
     border-radius: 0px 0px 0px 0px;
-    color: whitesmoke;
+    color: rgb(253, 249, 249);
     margin: auto;
 
 }
 
 menu>ul>li>a:hover {
-    background-color: #ffffff;
+    background-color:#030303;
     color: whitesmoke;
     text-decoration: none;
 }
 
 
 main {
-    background-color: #fffcfa;
+    background-color: #f5eeeb;
     width: 90vw;
     margin: auto;
     border-radius: 7px 7px 0px 0px;
@@ -121,7 +121,7 @@ article>p {
 }
 
 footer {
-    background-color: #ffffff;
+    background-color: #fffafa;
     text-align: center;
     border-radius: 0px 0px 7px 7px;
     width: 90vw;
@@ -166,12 +166,13 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        background-image:url("../back-tab");
+        background-color: #050505;
 
     }
 
     #burger {
         display: none;
+        background-color: #030303;
     }
 
 
@@ -179,12 +180,12 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
         display: block;
         width: 90vw;
         margin: auto;
-        background-color: #2a28a8;
+        background-color: #231dce;
     }
 
     menu>ul>li {
         display: inline-block;
-        background-color: #332cb6;
+        background-color: #231dce;
 
     }
 
@@ -240,7 +241,7 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
     body {
-        background-image:url("..");
+        background-color: #050505;
     }
 
     #burger {
@@ -249,7 +250,7 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
 
     menu {
         display: block;
-        background-color: #3530d1;
+        background-color: #231dce;
     }
 
     menu>ul>li {
@@ -306,7 +307,7 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
 
 @media screen and (min-width: 1201px) {
     body {
-        background-image:url("../back-pc");
+        background-color: #050505;
         background-repeat: repeat-x;
         background-attachment: fixed;
     }
@@ -317,7 +318,7 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
 
     menu {
         display: block;
-        background-color: #2d28ce;
+        background-color:#231dce;
     }
 
     menu>ul>li {
